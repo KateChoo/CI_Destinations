@@ -45,10 +45,13 @@ no front is ok???
   }
   .title,
   .usTitle,
-  li {
+  li,
+  p {
     color: var(--clr-blue);
     text-align:center;
-    // margin: .5em auto;
+  }
+  p{
+    font-size: var(--fs-body);
   }
   .usTitle {
     font-size:var(--fs-h2);
