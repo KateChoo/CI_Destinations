@@ -74,6 +74,9 @@ no front is ok???
     header {
     max-width:100%;
     }
+    .title{
+      font-size: var(--fs-h3);
+    }
     nav{
       display: flex;
       justify-content: center;
