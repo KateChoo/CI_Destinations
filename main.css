@@ -52,9 +52,13 @@ header {
 
 .title,
 .usTitle,
-li {
+li,
+p {
   color: var(--clr-blue);
   text-align: center;
+}
+p{
+  font-size: var(--fs-body);
 }
 
 .usTitle {
