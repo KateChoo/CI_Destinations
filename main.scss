@@ -74,9 +74,6 @@ no front is ok???
     header {
     max-width:100%;
     }
-    .title{
-      font-size: var(--fs-h3);
-    }
     nav{
       display: flex;
       justify-content: center;
@@ -84,6 +81,11 @@ no front is ok???
     li{
       padding: .5em;
       margin: .5em;
+    }
+  }
+  @media (max-width: 700px){
+    .title{
+      font-size: var(--fs-h3);
     }
   }
   /*==============
