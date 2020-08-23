@@ -38,13 +38,14 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-.back::after{
+/* .back::after{
   content: 'K';
+  font-size: .1em;
   color: var(--clr-pink);
   position: absolute;
   bottom: 0;
   right: 0;
-}
+} */
 .flipButton{
   position: absolute;
   bottom: 3%;
@@ -61,10 +62,19 @@
   outline:none;
   transition: transform 0.6s; 
 }
+.flipButton::after {
+    content: 'K';
+    font-size: .1em;
+    color: var(--clr-pink);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .flipButton:hover {
-  color: var(--clr-pink);
+  color: var(--clr-blue);
+  background:var(--clr-pink);
   border: 1px solid var(--clr-pink);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 /*==============
          HEADER
@@ -84,11 +94,11 @@ li,
 p {
   color: var(--clr-blue);
   text-align: center;
+  /* font-weight: 700; */
 }
 p{
   font-size: var(--fs-body);
 }
-
 .usTitle {
   font-size: var(--fs-h2);
 }
@@ -96,17 +106,19 @@ p{
 li {
   border: 1px solid var(--clr-blue);
   border-radius: 10px;
-  padding: .5em 0;
-  margin: .5em 0;
+  padding: 1em 0;
+  /* margin: .5em 0; */
 }
 
 li:hover {
   border: 1px solid var(--clr-pink);
+  /* background: var(--clr-pink); */
 }
 
 a {
   color: var(--clr-blue);
   font-size: var(--fs-h3);
+  font-weight: 500;
 }
 
 a:hover {
@@ -427,10 +439,10 @@ li {
   background-image: url(hnl.JPG);
 }
 .ont{
-  background-image: url(https://cdn.pixabay.com/photo/2018/02/21/05/17/cat-3169476__480.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/05/01/16/tropical-2203737__480.jpg);
 }
 .yvr{
-  background-image: url(https://cdn.pixabay.com/photo/2018/02/21/05/17/cat-3169476__480.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/09/09/52/vancouver-2613994__480.jpg);
 }
 .rome{
   background-image: url(rome.JPG);
