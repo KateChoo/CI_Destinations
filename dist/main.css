@@ -28,6 +28,52 @@ no front is ok???
   transform: rotateY(180deg);
   width: 20em;
   height: 15em;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.back::after {
+  content: "K";
+  color: var(--clr-pink);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ny {
+  background-image: url(jfk.JPG);
+  object-fit: cover;
+}
+
+.la {
+  background-image: url(lax.JPG);
+}
+
+.flipButton {
+  position: absolute;
+  bottom: 3%;
+  right: 35%;
+  color: var(--clr-blue);
+  border: 1px solid var(--clr-blue);
+  border-radius: 10px;
+  padding: 0.2em 0.3em;
+  font-size: var(--fs-body);
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: transform 0.6s;
+}
+
+.flipButton:hover {
+  color: var(--clr-pink);
+  border: 1px solid var(--clr-pink);
+  transform: scale(1.2);
 }
 
 /*==============
