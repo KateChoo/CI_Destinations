@@ -34,7 +34,7 @@ no front is ok???
        HEADER
 ===============*/
 header {
-  max-width: 40%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -79,10 +79,6 @@ a:hover {
 }
 
 @media (min-width: 700px) {
-  header {
-    max-width: 100%;
-  }
-
   nav {
     display: flex;
     justify-content: center;
@@ -229,20 +225,28 @@ a:hover {
 ===============*/
 .footer,
 .streaming-info {
+  position: relative;
   display: flex;
   justify-content: center;
+}
+
+.streaming-info {
+  position: relative;
 }
 
 .streaming-info > label {
   font-size: var(--fs-h3);
   color: var(--clr-blue);
+  padding: 0.1em;
 }
 
 .streaming-info > input {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   opacity: 0;
+  /* width: 5em;
+  height: 5em; */
   z-index: -999;
 }
 

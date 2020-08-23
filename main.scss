@@ -37,7 +37,7 @@ no front is ok???
   ===============*/
   
   header {
-    max-width:40%;
+    max-width:100%;
     margin: 0 auto;
   }
   .title a {
@@ -75,7 +75,7 @@ no front is ok???
   }
   @media (min-width: 700px){
     header {
-    max-width:100%;
+    // max-width:100%;
     }
     nav{
       display: flex;
@@ -233,19 +233,26 @@ no front is ok???
   ===============*/
   .footer,
   .streaming-info {
+      position: relative;
       display: flex;
       justify-content: center;
   }
+  .streaming-info {
+    position: relative;
+  }
+
   .streaming-info >label{
       font-size: var(--fs-h3);
       color: var(--clr-blue);
+      padding: .1em;
   }
-  .streaming-info >input{
-    // order: 1; 
+  .streaming-info > input {
     position: absolute;
-    top:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     opacity: 0;
+    /* width: 5em;
+    height: 5em; */
     z-index: -999;
   }
   label:nth-of-type(5){
