@@ -76,7 +76,7 @@ header {
 }
 
 .title a {
-  font-size: var(--fs-h1);
+  font-size: var(--fs-h2);
 }
 
 .title,
@@ -456,5 +456,11 @@ li {
 }
 .mel{
   background-image: url(mel.JPG);
+}
+.del{
+  background-image: url(del.JPG);
+}
+#popup {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
