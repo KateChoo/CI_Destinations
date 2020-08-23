@@ -36,6 +36,25 @@ is no front ok???
           transform: rotateY(180deg);
   width: 20em;
   height: 15em;
+  /* position: relative; */
+}
+.back::after{
+  content:'KKKKKKKKK';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.back button{
+  background: transparent;
+  width: 2em;
+  height: 2em;
+}
+
+.back a {
+  font-size: 3em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /*==============
