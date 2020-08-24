@@ -92,6 +92,7 @@ gtag('config', 'UA-175042112-6');
 
               <div class="back ny pop">
                 <div class="back"></div>
+                <div class="popup"></div>
                 <!-- <img class="back" src="jfk.JPG" alt="NY"> -->
                 <a><button class="flipButton">Coming Soon</button></a>
               </div> <!--back-->
@@ -339,7 +340,7 @@ gtag('config', 'UA-175042112-6');
               </div>
               <div class="back ont pop">
                 <div class="back"></div>
-                <div id="popup">Where to go?</div>
+                <div class="popup">Where to go?</div>
                 <a><button class="flipButton">Coming Soon</button></a>
               </div> <!--back-->
              
@@ -900,7 +901,7 @@ gtag('config', 'UA-175042112-6');
               </div>
               <div class="back mel pop">
                 <div class="back"></div>
-                <div id="popup">State Library Victoria</div>
+                <div class="popup">State Library Victoria</div>
                 <a><button class="flipButton">Coming Soon</button></a>
               </div> <!--back-->
              
@@ -982,7 +983,6 @@ gtag('config', 'UA-175042112-6');
     ==================-->
     <section class="footer">
         <div class="copyright">
-          <p><a href="https://github.com/KateChoo" target="_blank"> &copy; 2020 K <i class="fab fa-github"></i> </a></p>
           <div class="streaming-info">
             <input type="radio" id="h1" name="heart" value="heart">
             <input type="radio" id="h2" name="heart" value="heart">
@@ -996,9 +996,14 @@ gtag('config', 'UA-175042112-6');
             <label for="h4" class="viewers"><i class="fas fa-heart"></i></label>
             <label for="h5" class="viewers"><i class="fas fa-heart"></i></label>
           </div>
+          <div class="js-btn">
+            <button id="showall">Show All Pictures</button>
+            <button id="hideall" onClick="window.location.reload();">Show Me Destinations</button>
+          </div>
+          <p><a href="https://github.com/KateChoo" target="_blank"> &copy; 2020 K <i class="fab fa-github"></i> </a></p>
         </div>
       </section>
 
-<!-- <script src="main.js"></script> -->
+<script src="main.js"></script>
 </body>
 </html>

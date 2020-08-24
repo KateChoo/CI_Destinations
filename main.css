@@ -304,6 +304,36 @@ a:hover {
 /*==============
          footer
   ===============*/
+  /* .js-btn {
+    display: flex;
+    flex-direction: rows;
+  } */
+  .footer {
+    margin-top: 3em;
+  }
+  .footer ~p {
+    margin: 0 auto;
+  }
+.js-btn >button {
+  color: var(--clr-blue);
+  border: 1px solid var(--clr-blue);
+  border-radius: 10px;
+  padding: .2em .3em;
+  margin: 1em;
+  font-size: var(--fs-body);
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  transition: transform 0.6s;
+}
+.js-btn >button:hover {
+  color: var(--clr-blue);
+  border: 1px solid var(--clr-pink);
+  background: var(--clr-pink);
+}
+
 .footer,
 .streaming-info {
   display: -webkit-box;
@@ -412,10 +442,6 @@ li {
   cursor: pointer;
   text-decoration: none;
   list-style: none;
-}
-
-.footer {
-  margin-top: 3em;
 }
 
 @media (min-width: 360px) and (max-width: 480px) {
