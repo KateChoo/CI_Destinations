@@ -333,7 +333,7 @@ a:hover {
   border: 1px solid var(--clr-pink);
   background: var(--clr-pink);
 }
-
+.js-btn,
 .footer,
 .streaming-info {
   display: -webkit-box;
