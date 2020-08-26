@@ -1,4 +1,11 @@
 /*==============
+safari issues
+       本來只需要back and front加backface-visibility:hidden即可
+       但旋轉後一直閃退
+       在inner也加
+       但變成back buttons無法操控   
+===============*/
+/*==============
        Flip card   
 ===============*/
 .flip-card {
@@ -214,8 +221,8 @@ a:hover {
       grid-template-rows: repeat(8, 0.3fr);
       grid-template-areas: "r1" "r2" "r3" "r4" "." "r6" "r7" "r8";
 
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; */
   }
 
 .r1 {
