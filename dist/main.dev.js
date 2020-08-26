@@ -1,19 +1,23 @@
 "use strict";
 
-// const nyb = document.querySelectorAll('.flipButton')[0];
-// const nypop = document.querySelectorAll('div .pop')[0];
-// const lapop = c
+var nytruth = document.querySelectorAll('.truthButton')[0];
+var nyflip = document.querySelectorAll('.flipButton')[0];
+var nypop = document.querySelectorAll('div .pop')[0];
+nytruth.addEventListener('click', function () {
+  nypop.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2016/11/14/03/22/elephant-1822481__480.jpg')";
+});
+nyflip.addEventListener('click', function () {
+  nypop.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__480.jpg";
+}); // const lapop = c
 // const nypopup = document.querySelectorAll('.popup')[0];
 // nyb.addEventListener ('onmouseover', () => {
 //     nypop.innerHTML = 'block';
 //  });
-// nyb.addEventListener ('click', () => {
-//    nypop.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2016/11/14/03/22/elephant-1822481__480.jpg')";
-// });
 //  showface.addEventListener('onmouseout', () => {
 //     nyturn.style.transform = "rotateY(180deg)";
 //     laturn.style.transform = "rotateY(180deg)";
 //  });
+
 var showface = document.getElementById('title');
 var showall = document.getElementById('showall');
 var nyturn = document.querySelectorAll('.inner')[0];

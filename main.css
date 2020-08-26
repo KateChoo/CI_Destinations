@@ -9,10 +9,8 @@
 
 .inner {
   position: relative;
-  -webkit-transition: -webkit-transform 0.6s;
-  transition: -webkit-transform 0.6s;
-  transition: transform 0.6s;
-  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transition: 0.6s;
+          transform 0.6s;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-box-shadow: 0px 2px 8px 0 black;
@@ -27,7 +25,7 @@
 .front, .back {
   position: absolute;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .back {
@@ -47,9 +45,16 @@
   right: 0;
 } */
 .flipButton{
-  position: absolute;
   bottom: 3%;
-  right: 35%;
+  right: 30%;
+}
+/* .truthButton{
+  bottom: 3%;
+  left: 20%;
+} */
+.flipButton,
+.truthButton{
+  position: absolute;
   color: var(--clr-blue);
   border: 1px solid var(--clr-blue);
   border-radius: 10px;
@@ -62,6 +67,7 @@
   outline:none;
   transition: transform 0.6s; 
 }
+.truthButton::after,
 .flipButton::after {
     content: 'K';
     font-size: .1em;
@@ -70,6 +76,7 @@
     bottom: 0;
     right: 0;
 }
+.truthButton:hover,
 .flipButton:hover {
   color: var(--clr-blue);
   background:var(--clr-pink);
@@ -206,7 +213,10 @@ a:hover {
   -ms-grid-rows: (0.3fr)[8];
       grid-template-rows: repeat(8, 0.3fr);
       grid-template-areas: "r1" "r2" "r3" "r4" "." "r6" "r7" "r8";
-}
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  }
 
 .r1 {
   -ms-grid-row: 1;
@@ -495,7 +505,7 @@ li {
   background-image: url(https://cdn.pixabay.com/photo/2015/10/08/09/01/australia-977339__480.jpg);
 }
 .del{
-  background-image: url(delhi.JPG);
+  background-image: url(https://cdn.pixabay.com/photo/2020/02/02/17/24/travel-4813658__480.jpg);
 }
 #popup {
   display: none;
