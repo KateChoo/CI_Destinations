@@ -90,9 +90,9 @@ safari issues
 }
 .truthButton:hover,
 .flipButton:hover {
-  color: var(--clr-blue);
-  background:var(--clr-pink);
-  border: 1px solid var(--clr-pink);
+  color: var(--clr-pink);
+  background:var(--clr-blue);
+  border: 1px solid var(--clr-blue);
   transform: scale(1.1);
 }
 /*==============
