@@ -23,6 +23,7 @@ nyflip.addEventListener ('click', () => {
 const showface = document.getElementById('title');
 
 const showall = document.getElementById('showall');
+
 const nyturn = document.querySelectorAll('.inner')[0];
 const laturn = document.querySelectorAll('.inner')[1];
 const sfturn = document.querySelectorAll('.inner')[2];

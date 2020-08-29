@@ -3,7 +3,11 @@ safari issues
        本來只需要back and front加backface-visibility:hidden即可
        但旋轉後一直閃退
        在inner也加
-       但變成back buttons無法操控   
+       但變成back buttons無法操控
+       solution 
+       delete .tag  (background: #fff;)
+       add .front (background: #fff;)
+   
 ===============*/
 /*==============
        Flip card   
@@ -63,11 +67,12 @@ safari issues
 .truthButton{
   position: absolute;
   color: var(--clr-blue);
-  border: 1px solid var(--clr-blue);
+  border: 1px solid var(--clr-pink);
+  background-color: var(--clr-pink);
   border-radius: 10px;
   padding: .2em .3em;
   font-size: var(--fs-body);
-  background-color: Transparent;
+  /* background-color: Transparent; */
   background-repeat:no-repeat;
   cursor:pointer;
   overflow: hidden;
@@ -111,7 +116,7 @@ p {
   /* font-weight: 700; */
 }
 p{
-  font-size: var(--fs-h3);
+  font-size: var(--fs-body);
 }
 .usTitle {
   font-size: var(--fs-h2);
@@ -216,13 +221,16 @@ a:hover {
   display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
-  background: #fff;
+  /* background: #fff; */
   -ms-grid-rows: (0.3fr)[8];
       grid-template-rows: repeat(8, 0.3fr);
       grid-template-areas: "r1" "r2" "r3" "r4" "." "r6" "r7" "r8";
 
   /* -webkit-backface-visibility: hidden;
   backface-visibility: hidden; */
+  }
+  .front {
+    background: #fff;
   }
 
 .r1 {
@@ -334,10 +342,11 @@ a:hover {
 .js-btn >button {
   color: var(--clr-blue);
   border: 1px solid var(--clr-blue);
+  background-color: var(--clr-blue);
   border-radius: 10px;
   padding: .2em .3em;
   margin: 1em;
-  font-size: var(--fs-body);
+  font-size: var(--fs-h3);
   background-color: Transparent;
   background-repeat:no-repeat;
   cursor:pointer;
