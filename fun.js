@@ -1,3 +1,4 @@
+/*還沒寫function很亂 */
 const nytruth = document.querySelectorAll('.truthButton')[0];
 const latruth = document.querySelectorAll('.truthButton')[1];
 const sftruth = document.querySelectorAll('.truthButton')[2];
@@ -88,7 +89,7 @@ latruth.addEventListener ('click', () => {
     sydpop.style.backgroundImage = "url('https://media.istockphoto.com/photos/scene-of-woolworth-metro-grocery-store-in-winter-in-melbourne-picture-id1220507639?b=1&k=6&m=1220507639&s=170667a&w=0&h=7cJu6kFVsrdAnJeBtVsljI7ijYcN5166Nuo5HMW5ZTk=')";
  });
  bnetruth.addEventListener ('click', () => {
-    bnepop.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2016/02/25/13/35/beach-1222080__480.jpg')";
+    bnepop.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2020/03/06/05/17/korean-4906061_1280.jpg')";
  });
  meltruth.addEventListener ('click', () => {
     melpop.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2019/01/02/13/13/korean-food-3908819__480.jpg')";
@@ -165,7 +166,6 @@ latruth.addEventListener ('click', () => {
 //     laturn.style.transform = "rotateY(180deg)";
 //  });
 
-
 const showface = document.getElementById('title');
 
 const showall = document.getElementById('showall');
@@ -201,5 +201,6 @@ showall.addEventListener('click', () => {
     melturn.style.transform = "rotateY(180deg)";
     delturn.style.transform = "rotateY(180deg)";
  });
+
 
  
