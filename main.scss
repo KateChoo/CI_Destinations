@@ -83,6 +83,32 @@ header {
   max-width: 100%;
   margin: 0 auto;
 }
+.fly {
+  width: 80%;
+  color:var(--white);
+  animation: fly 2s cubic-bezier(.61,.56,.85,.69) forwards;
+  transition-delay: .3s;
+} 
+
+ @keyframes fly {
+  0% { 
+    transform: translateX(0%) rotate(-5deg); 
+    color:var(--clr-white);
+  }
+  50% { 
+    transform: translateX(50%) rotate(-10deg);
+    color:var(--clr-white); 
+  }
+  80% { 
+    transform: translateX(80%) rotate(-15deg);
+    color:var(--clr-white);
+  }
+  100% { 
+    transform: translateX(95%) rotate(-15deg);
+    /* transform: rotate(45deg);  */
+    color:var(--clr-pink);
+  }
+} 
 
 .title a {
   font-size: var(--fs-h2);
