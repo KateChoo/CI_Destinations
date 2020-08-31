@@ -7,7 +7,8 @@ safari issues
        solution 
        delete .tag  (background: #fff;)
        add .front (background: #fff;)
-   
+  這個takeoff header overflow
+
 ===============*/
 /*==============
        Flip card   
@@ -101,6 +102,7 @@ safari issues
 header {
   max-width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .fly {
@@ -117,19 +119,19 @@ justify-content: flex-start; */
 
  @keyframes fly {
   0% { 
-    transform: translateX(0%) rotate(-5deg); 
+    transform: translateX(0%) rotate(-15deg); 
     color:var(--clr-white);
   }
   50% { 
-    transform: translateX(50%) rotate(-10deg);
+    transform: translateX(50%) rotate(-11deg);
     color:var(--clr-white); 
   }
   80% { 
-    transform: translateX(80%) rotate(-15deg);
+    transform: translateX(80%) rotate(-7deg);
     color:var(--clr-white);
   }
   100% { 
-    transform: translateX(95%) rotate(-15deg);
+    transform: translateX(95%) rotate(-5deg);
     /* transform: rotate(45deg);  */
     color:var(--clr-pink);
   }
