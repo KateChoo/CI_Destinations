@@ -420,6 +420,7 @@ a:hover {
   .pixabay a{
     color: var(--clr-blue);
     font-size: 1em;
+    text-align: center;
   }
 .js-btn,
 .footer,
