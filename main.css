@@ -407,6 +407,13 @@ a:hover {
   border: 1px solid var(--clr-pink);
   background: var(--clr-pink);
 }
+
+  .js-btn p,
+  .pixabay,
+  .pixabay a{
+    color: var(--clr-blue);
+    font-size: 1em;
+  }
 .js-btn,
 .footer,
 .streaming-info {
@@ -526,6 +533,56 @@ li {
     --fs-body: 0.25rem;
   }
 }
+  .ny  {background-image: url(https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__480.jpg);}
+  .la  {background-image: url(https://cdn.pixabay.com/photo/2016/08/16/17/32/hollywood-sign-1598473__480.jpg);}
+  .sf  {background-image: url(https://cdn.pixabay.com/photo/2016/08/15/18/41/golden-gate-bridge-1596161__480.jpg);}
+  .hnl {background-image: url(https://cdn.pixabay.com/photo/2017/01/11/22/47/hawaii-1973110__480.jpg);}
+  .ont {background-image: url(https://cdn.pixabay.com/photo/2017/04/05/01/16/tropical-2203737__480.jpg);}
+  .yvr {background-image: url(https://cdn.pixabay.com/photo/2017/08/09/09/52/vancouver-2613994__480.jpg);}
+  .rome{background-image: url(https://cdn.pixabay.com/photo/2017/12/28/08/18/arch-of-constantine-3044634__480.jpg);}
+  .vie {background-image: url(https://cdn.pixabay.com/photo/2014/10/26/13/40/schoenbrunn-503846__480.jpg);}
+  .london{background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/56/st-pauls-cathedral-768778_1280.jpg);}
+  .ams {background-image: url(https://cdn.pixabay.com/photo/2020/07/24/03/36/houses-5432876_1280.jpg);}
+  .fra {background-image: url(https://cdn.pixabay.com/photo/2018/04/03/01/38/frankfurt-mainz-3285698__480.jpg);}
+  .syd {background-image: url(https://cdn.pixabay.com/photo/2016/09/17/17/41/sydney-1676597_1280.jpg);}
+  .bne {background-image: url(https://cdn.pixabay.com/photo/2016/02/25/13/35/beach-1222080__480.jpg);}
+  .mel {background-image: url(https://cdn.pixabay.com/photo/2015/10/08/09/01/australia-977339__480.jpg);}
+  .del {background-image: url(https://cdn.pixabay.com/photo/2020/04/17/12/42/humayun-5055050_1280.jpg);}
+   
+  .ny,
+  .la,
+  .sf,
+  .hnl,
+  .ont,
+  .yvr,
+  .rome,
+  .vie,
+  .london,
+  .ams,
+  .fra,
+  .syd,
+  .bne,
+  .mel,
+  .del{
+    transition-delay: .2s;
+  }
+  .ny:hover   {background-image: url(https://cdn.pixabay.com/photo/2017/06/07/15/47/brooklyn-bridge-2380682_1280.jpg)}
+  .la:hover   {background-image: url(https://cdn.pixabay.com/photo/2016/09/03/19/35/griffith-observatory-1642514_1280.jpg);}
+  .sf:hover   {background-image: url(https://cdn.pixabay.com/photo/2016/10/26/20/29/golden-gate-bridge-1772562_1280.jpg);}
+  .hnl:hover  {background-image: url(https://cdn.pixabay.com/photo/2014/12/23/15/22/pearl-harbor-578532_1280.jpg);}
+  .ont:hover  {background-image: url(https://cdn.pixabay.com/photo/2018/10/20/22/59/shopping-mall-3761975_1280.jpg);}
+  .yvr:hover  {background-image: url(https://cdn.pixabay.com/photo/2019/04/30/16/47/vancouver-4168988_1280.jpg);}
+  .rome:hover {background-image: url(https://cdn.pixabay.com/photo/2019/06/18/15/32/moor-fountain-4282602_1280.jpg);}
+  .vie:hover  {background-image: url(https://cdn.pixabay.com/photo/2016/11/30/18/39/christmas-1873589_1280.jpg);}
+  .london:hover {background-image: url(https://cdn.pixabay.com/photo/2018/01/12/11/55/london-3078109__480.jpg);}
+  .ams:hover  {background-image: url(https://cdn.pixabay.com/photo/2016/01/19/19/26/amsterdam-1150319__480.jpg);}
+  .fra:hover  {background-image: url(https://cdn.pixabay.com/photo/2017/03/13/14/30/central-station-2139984_1280.jpg);}
+  .syd:hover  {background-image: url(https://cdn.pixabay.com/photo/2017/11/02/10/44/australia-2910680__480.jpg);}
+  .bne:hover  {background-image: url(https://cdn.pixabay.com/photo/2017/03/30/12/11/australia-2188147_1280.jpg);}
+  .mel:hover  {background-image: url(https://cdn.pixabay.com/photo/2020/04/22/08/04/melbourne-5076478_1280.jpg);}
+  .del:hover  {background-image: url(https://cdn.pixabay.com/photo/2020/02/02/17/24/travel-4813658_1280.jpg);}
+
+/* 有我自己的圖片
 .ny{
   background-image: url(https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__480.jpg);
 }
@@ -573,5 +630,5 @@ li {
 }
 #popup {
   display: none;
-}
+} */
 /*# sourceMappingURL=main.css.map */

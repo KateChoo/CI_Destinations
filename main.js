@@ -1,25 +1,3 @@
-// const nytruth = document.querySelectorAll('.truthButton')[0];
-// const nyflip = document.querySelectorAll('.flipButton')[0];
-// const nypop = document.querySelectorAll('div .pop')[0];
-
-// nytruth.addEventListener ('click', () => {
-//    nypop.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2016/11/14/03/22/elephant-1822481__480.jpg')";
-// });
-// nyflip.addEventListener ('click', () => {
-//     nypop.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__480.jpg";
-// });
- // const lapop = c
-// const nypopup = document.querySelectorAll('.popup')[0];
-// nyb.addEventListener ('onmouseover', () => {
-//     nypop.innerHTML = 'block';
-//  });
-
-//  showface.addEventListener('onmouseout', () => {
-//     nyturn.style.transform = "rotateY(180deg)";
-//     laturn.style.transform = "rotateY(180deg)";
-//  });
-
-
 const showface = document.getElementById('title');
 
 const showall = document.getElementById('showall');
@@ -56,5 +34,29 @@ showall.addEventListener('click', () => {
     melturn.style.transform = "rotateY(180deg)";
     delturn.style.transform = "rotateY(180deg)";
  });
+
+ const msg = [
+    document.querySelectorAll('.flipButton')[0],
+    document.querySelectorAll('.flipButton')[1],
+    document.querySelectorAll('.flipButton')[2],
+    document.querySelectorAll('.flipButton')[3],
+    document.querySelectorAll('.flipButton')[4],
+    document.querySelectorAll('.flipButton')[5],
+    document.querySelectorAll('.flipButton')[6],
+    document.querySelectorAll('.flipButton')[7],
+    document.querySelectorAll('.flipButton')[8],
+    
+    document.querySelectorAll('.flipButton')[10],
+    document.querySelectorAll('.flipButton')[11],
+    document.querySelectorAll('.flipButton')[12],
+    document.querySelectorAll('.flipButton')[13],
+    document.querySelectorAll('.flipButton')[14]
+ ]
+ 
+ msg.forEach(item => {
+  item.addEventListener('click', event => {
+    alert('Thank you for visiting! I am working on them. Fancy the Netherlands instead?');
+  })
+})
 
  
