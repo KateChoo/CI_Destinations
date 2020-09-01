@@ -237,12 +237,17 @@ a:hover {
           justify-content: flex-end;
 }
 
-.r1 img {
+.r1{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfoZ4t4dhT4L4ZwhQ3Y8AN7BqDPnOyYlPxGQ&usqp=CAU);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 18em;
-  width: 80%;
+  max-width: 15em;
+  height: 2em;
+  width: 70%;
   margin: 0 auto;
 }
 
