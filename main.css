@@ -402,6 +402,13 @@ a:hover {
   outline:none;
   transition: transform 0.6s;
 }
+
+.copyright span,
+.k a,
+.pixabay a{
+  color: var(--clr-blue);
+  font-size: 1em;
+}
 .js-btn >button:hover {
   color: var(--clr-blue);
   border: 1px solid var(--clr-pink);

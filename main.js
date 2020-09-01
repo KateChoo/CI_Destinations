@@ -55,7 +55,7 @@ showall.addEventListener('click', () => {
  
  msg.forEach(item => {
   item.addEventListener('click', event => {
-    alert('Thank you for visiting! I am working on them. Fancy the Netherlands instead?');
+    alert('Thank you for visiting! I am working on it. Fancy to go th the Netherlands instead?');
   })
 })
 
